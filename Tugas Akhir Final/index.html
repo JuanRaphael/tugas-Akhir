@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowRise Store</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo"><span>FlowRise</span></a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#products">Produk</a>
+      <a href="#contact">Contact</a>
+      <a href="login.html">Login</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="Cari Bunga Favoritmu Disini...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="img/produk1.jpg" alt="Verbena Flower">
+        <div class="item-detail">
+          <h3>Verbena</h3>
+          <div class="item-price">IDR 10K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/produk2.jpg" alt="Veronica Flower">
+        <div class="item-detail">
+          <h3>Veronica</h3>
+          <div class="item-price">IDR 35K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/produk3.jpg" alt="Hydrangea Flower">
+        <div class="item-detail">
+          <h3>Hydrangea</h3>
+          <div class="item-price">IDR 17K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+      <div class="cart-item">
+        <img src="img/produk4.jpg" alt="Clematis Flower">
+        <div class="item-detail">
+          <h3>Clematis</h3>
+          <div class="item-price">IDR 20K</div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1><span>Promo Bulan ini</span></h1>
+      <p><span> Buruan klik dibawah ini sebelum kehabisan </span></p>
+      <a href="#" class="cta">Beli Sekarang</a>
+    </main>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <!-- Change image when hovering -->
+        <img src="img/tentang2.jpg" alt="Tentang Kami" class="gambarSatu">
+        <img src="img/tentang1.jpg" alt=" foto kedua " class="gambarDua">
+        <!-- Ukuran Gambar Harus Sama -->
+      </div>
+      <div class="content">
+        <h3>Tentang FlowRise</h3>
+        <p>FlowRise adalah toko bunga yang sudah menjual berbagai jenis bunga untuk kegiatan berkebun atau untuk buket bunga sejak tahun 1989</p>
+        <p>Dan sekarang kami hadir dalam bentuk online shop untuk memudahkan para pecintga bunga untuk melakukan pembelian, tapi tetap mempertahankan kualitas dan kesegaran dari produk kami</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="menu" class="menu">
+    <h2><span>Produk"</span> Kami</h2>
+    <p>Berikut adalah bunga best seller di toko ini
+    </p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="img/produk2.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Veronica -</h3>
+        <p class="menu-card-price">IDR 35K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/produk4.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Clematis -</h3>
+        <p class="menu-card-price">IDR 20K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/produk1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Verbena -</h3>
+        <p class="menu-card-price">IDR 10K</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- Products Section start -->
+  <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Beberapa Produk Rekomendasi dari kami untuk anda</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/produk1.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Verbena</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 10K <span>IDR 15K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button4"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/produk4.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Clematis</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 20K <span>IDR 35K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button3"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/produk3.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Hydrangea</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+          </div>
+          <div class="product-price">IDR 17K <span>IDR 25K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button2"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="img/produk2.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Veronica</h3>
+          <div class="product-stars">
+            <i data-feather="star"class="star-full"></i>
+            <i data-feather="star"class="star-full"></i>
+            <i data-feather="star"class="star-full"></i>
+            <i data-feather="star"class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 35K <span>IDR 50K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Products Section end -->
+
+  <!-- Contact Section start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+    <p>Pesan, Kesan, Kritik, dan Saran langsung saja kirim melalui dibawah ini
+    </p>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8816025429896!2d106.83465890586376!3d-6.146600428579771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5815aa20657%3A0x5e375ca4e89d6f3d!2sSTM%20STRADA%20%2F%20STM%20ISRAEL%2073!5e0!3m2!1sen!2sid!4v1683905656042!5m2!1sen!2sid"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="Nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="No hp">
+        </div>
+        <button type="submit" class="btn">Kirim pesan/saran/kritik</button>
+      </form>
+
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="https://www.facebook.com/juan.huang.18041"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="https://www.facebook.com/juan.huang.18041">JuanRapH</a>. | &copy; 2023.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/produk1.jpg" alt="Verbena">
+        <div class="product-content">
+          <h3>Verbena</h3>
+          <p>Bunga Verbena, Bunga yang sering dikaitkan dengan Romansa dan Kenangan Indah, Bunga yang cocok dijadikan tanaman untuk di kebun karena cukup dimandikan dengan sinar matahari dan air yang cukup bunga ini dapat mekar dengan sangat cantik
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 10K</div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>Add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal2" id="item-detail-modal2">
+    <div class="modal-container2">
+      <a href="#" class="close-icon2"><i data-feather="x"></i></a>
+      <div class="modal-content2">
+        <img src="img/produk2.jpg" alt="Veronica">
+        <div class="product-content">
+          <h3>Veronica</h3>
+          <p>Bunga penghasil madu bagi para lebah, biasanya hidup di alam liar dan di inggris mereka adalah tanaman yang dilindungi
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 35K</div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>Add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal3" id="item-detail-modal3">
+    <div class="modal-container3">
+      <a href="#" class="close-icon3"><i data-feather="x"></i></a>
+      <div class="modal-content3">
+        <img src="img/produk3.jpg" alt="Hydrangea">
+        <div class="product-content">
+          <h3>Hydrangea</h3>
+          <p>Bunga yang sering diartikan sebagai ucapan syukur karena suatu hal <br> bisa juga sebagai lambang kekayaan dan kelimpahan
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 10K</div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>Add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal4" id="item-detail-modal4">
+    <div class="modal-container4">
+      <a href="#" class="close-icon4"><i data-feather="x"></i></a>
+      <div class="modal-content4">
+        <img src="img/produk4.jpg" alt="Clematis">
+        <div class="product-content">
+          <h3>Clematis</h3>
+          <p>Bunga Clematis Ungu, Bunga yang cocok untuk diberikan ke pasangan karena melambangkan seseorang yang elegan dan mulia <br>
+            Bunga ini juga cocok untuk dijadikan koleksi karena bisa tumbuh di iklim tropis seperti di Indonesia.
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 20K</div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>Add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Box Item Detail end -->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- My Javascript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
